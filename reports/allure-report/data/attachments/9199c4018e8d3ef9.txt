@@ -1,0 +1,1 @@
+[32mINFO    [0m TablePOM:table_pom.py:16 Opening table practice page

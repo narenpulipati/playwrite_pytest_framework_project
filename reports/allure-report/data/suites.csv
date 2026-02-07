@@ -1,0 +1,25 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","8241","test_css_selectors","tests.regression","2026-01-31","passed","2026-01-31","","test_css_selector","",""
+"","5062","test_form_with_multiple_data[Narendra-naren@test.com-Hyderabad]","tests.regression","2026-01-31","passed","2026-01-31","","test_form_data_driven","",""
+"
+    WHAT TO TEST:
+    - Validate number of dropdown options
+    ","5716","test_country_dropdown_options_count","tests.regression","2026-01-31","passed","2026-01-31","","test_dropdown_pom","",""
+"","5302","test_table_static","tests.regression","2026-01-31","passed","2026-01-31","","test_table_content","",""
+"","5611","test_form_with_multiple_data[Anita-anita@test.com-Chennai]","tests.regression","2026-01-31","passed","2026-01-31","","test_form_data_driven","",""
+"","0","test_css_selectors","","2026-01-31","skipped","2026-01-31","","","",""
+"","5137","test_table_data","tests.regression","2026-01-31","passed","2026-01-31","","test_table_pom","",""
+"","4907","test_form_with_multiple_data[Rahul-rahul@test.com-Bangalore]","tests.regression","2026-01-31","passed","2026-01-31","","test_form_data_driven","",""
+"
+    WHAT TO TEST:
+    - Select country using value
+    - Validate selected value
+    ","4763","test_select_country_by_value","tests.regression","2026-01-31","passed","2026-01-31","","test_dropdown_pom","",""
+"
+    WHAT TO TEST:
+    - Open the page
+    - Verify dropdown is visible & enabled
+    - Select country using label
+    - Validate selected value
+    ","5312","test_select_country_by_label","tests.regression","2026-01-31","passed","2026-01-31","","test_dropdown_pom","",""
+"","2064","test_right_click","tests.regression","2026-01-31","passed","2026-01-31","","test_mouse_actions","",""

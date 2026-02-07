@@ -1,40 +1,25 @@
-from playwright.sync_api import Page,expect
+from pages.css_page import CssPage
+from playwright.sync_api import expect
 
-def test_css(page:Page):
-    page.goto('https://testautomationpractice.blogspot.com/')
-    title=page.get_by_title('Automation Testing Practice')
 
-#input boxes
-    page.locator('#textarea').fill('Hyderabad')
-    page.locator('#name').fill('Narendra Pulipati')
-    page.locator('#email').fill('pulipati@123.com')
+def test_css_selectors(page):
+    css_page = CssPage(page)
 
-#button element
-    button=page.locator("div input[id='female']")
-    button1=page.locator("id=male")
-    button.click()
-    button1.click()
+    css_page.open_page()
 
-    #expect(button).to_be_enabled()
+    css_page.fill_user_details(
+        name="Narendra Pulipati",
+        email="pulipati@123.com",
+        address="Hyderabad"
+    )
 
-#check box
-    checkbox=page.locator("input#sunday")
-    checkbox1=page.locator("div input[class='form-check-input'][id='saturday']")
-    checkbox.check()
-    checkbox1.click()
-    expect(checkbox).to_be_checked()
-    print("\n The day clicked :", page.locator("label[for='sunday']").text_content())
-    total_days=page.locator("label[for*='day']")
-    total_days_count=total_days.count()
-    print('Total number of days : ',total_days_count)
+    css_page.select_gender("")
+    css_page.select_days()
 
-#printing all days
-    page.locator("label[for *= 'day']")
-    all_days=page.locator("label[for*='day']").all_text_contents()
-    for day in all_days:
-        print(day)
+    all_days = css_page.get_all_days()
+    print("Available days:", all_days)
 
-#click on one or two days using nth
-    page.locator("label[for *= 'day']").nth(5).click()
-    page.locator("label[for *= 'day']").nth(3).click()
-    page.wait_for_timeout(3000)
+    css_page.click_day_by_index(5)
+    css_page.click_day_by_index(3)
+
+    expect(page).to_have_title("Automation Testing Practice")

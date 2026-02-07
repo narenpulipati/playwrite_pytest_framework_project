@@ -1,0 +1,3 @@
+[32mINFO    [0m DropdownPOM:dropdown_pom.py:16 Opening automation practice page
+[32mINFO    [0m DropdownPOM:dropdown_pom.py:43 Fetching all dropdown options text
+[32mINFO    [0m DropdownPOM:dropdown_pom.py:39 Getting dropdown options count

@@ -1,0 +1,7 @@
+[32mINFO    [0m CssPage:css_page.py:22 Opening automation practice page
+[32mINFO    [0m CssPage:css_page.py:26 Filling user details: Narendra Pulipati, pulipati@123.com
+[32mINFO    [0m CssPage:css_page.py:32 Selecting gender: 
+[32mINFO    [0m CssPage:css_page.py:39 Selecting days: Sunday and Saturday
+[32mINFO    [0m CssPage:css_page.py:44 Fetching all day labels
+[32mINFO    [0m CssPage:css_page.py:48 Clicking day at index: 5
+[32mINFO    [0m CssPage:css_page.py:48 Clicking day at index: 3

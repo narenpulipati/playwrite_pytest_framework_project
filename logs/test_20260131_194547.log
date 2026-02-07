@@ -1,0 +1,5 @@
+2026-01-31 19:45:47,626 | INFO | DropdownPOM | Opening automation practice page
+2026-01-31 19:45:53,155 | INFO | DropdownPOM | Opening automation practice page
+2026-01-31 19:45:58,519 | INFO | DropdownPOM | Selecting country by value: uk
+2026-01-31 19:45:58,992 | INFO | DropdownPOM | Opening automation practice page
+2026-01-31 19:46:04,227 | INFO | DropdownPOM | Fetching all dropdown options text

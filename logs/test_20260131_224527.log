@@ -1,0 +1,7 @@
+2026-01-31 22:45:27,024 | INFO | CssPage | Opening automation practice page
+2026-01-31 22:45:33,982 | INFO | CssPage | Filling user details: Narendra Pulipati, pulipati@123.com
+2026-01-31 22:45:34,660 | INFO | CssPage | Selecting gender: 
+2026-01-31 22:45:34,780 | INFO | CssPage | Selecting days: Sunday and Saturday
+2026-01-31 22:45:35,060 | INFO | CssPage | Fetching all day labels
+2026-01-31 22:45:35,107 | INFO | CssPage | Clicking day at index: 5
+2026-01-31 22:45:35,162 | INFO | CssPage | Clicking day at index: 3

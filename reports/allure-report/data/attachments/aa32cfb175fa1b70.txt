@@ -1,0 +1,3 @@
+[32mINFO    [0m DropdownPOM:dropdown_pom.py:16 Opening automation practice page
+[32mINFO    [0m DropdownPOM:dropdown_pom.py:47 Getting country dropdown locator
+[32mINFO    [0m DropdownPOM:dropdown_pom.py:27 Selecting country by label: India

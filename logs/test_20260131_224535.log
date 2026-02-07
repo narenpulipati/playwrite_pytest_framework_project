@@ -1,0 +1,9 @@
+2026-01-31 22:45:35,833 | INFO | DropdownPOM | Opening automation practice page
+2026-01-31 22:45:41,019 | INFO | DropdownPOM | Getting country dropdown locator
+2026-01-31 22:45:41,102 | INFO | DropdownPOM | Selecting country by label: India
+2026-01-31 22:45:41,570 | INFO | DropdownPOM | Opening automation practice page
+2026-01-31 22:45:46,228 | INFO | DropdownPOM | Selecting country by value: uk
+2026-01-31 22:45:46,318 | INFO | DropdownPOM | Getting country dropdown locator
+2026-01-31 22:45:46,784 | INFO | DropdownPOM | Opening automation practice page
+2026-01-31 22:45:52,346 | INFO | DropdownPOM | Fetching all dropdown options text
+2026-01-31 22:45:52,446 | INFO | DropdownPOM | Getting dropdown options count
