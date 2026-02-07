@@ -5,7 +5,7 @@ from playwright.sync_api import expect
 def test_table_static(page):
     table_page = TablePage(page)
 
-    table_page.open_page()
+    table_page.open("https://testautomationpractice.blogspot.com/")
 
     # table visible
     expect(table_page.is_table_visible()).to_be_visible()

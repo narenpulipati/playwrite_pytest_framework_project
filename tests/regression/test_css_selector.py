@@ -5,7 +5,7 @@ from playwright.sync_api import expect
 def test_css_selectors(page):
     css_page = CssPage(page)
 
-    css_page.open_page()
+    css_page.open("https://testautomationpractice.blogspot.com/")
 
     css_page.fill_user_details(
         name="Narendra Pulipati",

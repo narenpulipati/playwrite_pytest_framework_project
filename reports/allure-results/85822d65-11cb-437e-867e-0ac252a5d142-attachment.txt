@@ -1,0 +1,11 @@
+Rows: 7
+Columns: 4
+Second row: ['Learn Selenium', 'Amit', 'Selenium', '300']
+['Learn Selenium', 'Amit', 'Selenium', '300']
+['Learn Java', 'Mukesh', 'Java', '500']
+['Learn JS', 'Animesh', 'Javascript', '300']
+['Master In Selenium', 'Mukesh', 'Selenium', '3000']
+['Master In Java', 'Amod', 'JAVA', '2000']
+['Master In JS', 'Amit', 'Javascript', '1000']
+Books by Amit: ['Learn Selenium', 'Master In JS']
+Total price: 7100

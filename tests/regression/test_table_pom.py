@@ -1,5 +1,5 @@
 def test_table_data(table_pom):
-    table_pom.open()
+    table_pom.open("https://testautomationpractice.blogspot.com/")
 
     assert table_pom.get_row_count() > 1
     assert table_pom.get_column_count() == 4

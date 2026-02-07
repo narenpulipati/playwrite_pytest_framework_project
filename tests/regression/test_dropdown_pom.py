@@ -11,7 +11,7 @@ def test_select_country_by_label(dropdown_pom):
     - Validate selected value
     """
 
-    dropdown_pom.open()
+    dropdown_pom.open("https://testautomationpractice.blogspot.com/")
 
     dropdown = dropdown_pom.get_country_dropdown()
 
@@ -29,7 +29,7 @@ def test_select_country_by_value(dropdown_pom):
     - Validate selected value
     """
 
-    dropdown_pom.open()
+    dropdown_pom.open("https://testautomationpractice.blogspot.com/")
     dropdown_pom.select_country_by_value("uk")
 
     dropdown = dropdown_pom.get_country_dropdown()
@@ -42,7 +42,7 @@ def test_country_dropdown_options_count(dropdown_pom):
     - Validate number of dropdown options
     """
 
-    dropdown_pom.open()
+    dropdown_pom.open("https://testautomationpractice.blogspot.com/")
 
     options = dropdown_pom.get_all_country_options()
     count = dropdown_pom.get_dropdown_count()

@@ -1,0 +1,1 @@
+[32mINFO    [0m DropdownPOM:base_page.py:10 Opening URL: https://testautomationpractice.blogspot.com/
